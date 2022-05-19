@@ -15,9 +15,9 @@ Db2Struct is based/inspired by the work of ChimeraCoder's gojson package
 
 ## Usage
 
-```BASH
+```bash
 go install github.com/jniltinho/db2struct/cmd/db2struct@latest
-db2struct --host localhost -d test -t test_table --package myGoPackage --struct testTable -p --user testUser
+db2struct -d test -t test_table --package=myGoPackage --struct=testTable --host=localhost --user=root  -p 
 ```
 
 ## Example
